@@ -1,3 +1,3 @@
 import MyButton from "./components/my-button.vue";
 
-export { MyButton };
+export default { MyButton };
