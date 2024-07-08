@@ -1,6 +1,7 @@
 <template>
   <button
     :disabled="disabled"
+    class="my-button"
     :class="[
       colorComputed,
       sizeComputed
