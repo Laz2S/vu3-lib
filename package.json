@@ -1,11 +1,11 @@
 {
   "name": "vu3-lib",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "files": [
     "dist"
   ],
-  "exclude": ["src/App.vue", "src/main.ts"],
+  "exclude": ["src/App.vue", "src/main.js"],
   "outDir": "dist",
   "declaration": true,
   "main": "./dist/vu3-lib.umd.cjs",
@@ -21,9 +21,6 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.4.29"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
