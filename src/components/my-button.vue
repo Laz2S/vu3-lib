@@ -56,9 +56,9 @@ const sizeComputed = computed(() => props.size ? `my-button-size-${props.size}` 
       background-color: green;
       border: 2px solid green;
     }
-    &-yellow {
-      background-color: yellow;
-      border: 2px solid yellow;
+    &-blue {
+      background-color: blue;
+      border: 2px solid blue;
     }
   }
 
